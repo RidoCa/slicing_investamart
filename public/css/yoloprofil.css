@@ -1,0 +1,147 @@
+@font-face{
+    font-family: "Web-Raleway";
+    src:url('Raleway-Regular.ttf') format("embedded-opentype");
+    font-style:normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Web-Raleway-Bold";
+    src:url('Raleway-Bold.ttf') format("embedded-opentype");
+    font-style:normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Web-Italic";
+    src:url('Raleway-Italic.ttf') format("embedded-opentype");
+    font-style:normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Web-Light";
+    src:url('Raleway-Light.ttf') format("embedded-opentype");
+    font-style:normal;
+    font-weight: normal;
+}
+
+body{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    background-color: #FF0079;
+}
+
+/* header */
+.clear{
+    float: none;
+    clear: both;
+}
+
+.center{
+   width: 500px;
+   margin: auto;
+   
+}
+
+#header{
+    padding: 40px 0;
+}
+
+#header #logo{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img0 {
+    height: 40px; 
+    width: auto;
+    max-width: 220%;
+    margin-left: 25%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.img1 {
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    position: absolute;
+    margin-left: -3%;
+    height: 500px; width: auto
+}
+
+.img2 {
+    height: 700px; 
+    width: auto;
+    margin-top: 10%;
+    max-width: 300%;
+    margin-left: 7%;
+    position: relative;
+}
+
+.img3 {
+    height: 100px; 
+    width: auto;
+    max-width: 250%;
+    margin-top: 8%;
+    margin-left: 4%;
+    position: absolute;
+}
+
+/* banner */
+#banner h1{
+    margin-left: 61%;
+    width: 25%;
+    margin-top: -132%;
+    font-size: 55px;
+    text-align: right;
+    text-transform: uppercase;
+    position: relative;
+    color: white;
+    margin-bottom: 220px;
+    
+}
+
+
+#banner p{
+font-family: "Web-Raleway";
+    text-align: center;
+    list-style-type: none;
+    width: 65%;
+    padding: 30px;
+    margin-left: 13%;
+    font-size: 15px;
+    position: relative;
+    color: white;
+    
+}
+
+#banner h2{
+    font-family: "Web-Raleway";
+    text-align: center;
+    width: 75%;
+    margin-left: 13%;
+    font-size: 18px;
+    position: relative;
+    color: #FCEE21;
+    text-transform: uppercase;
+}
+
+
+.btn-sec{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    letter-spacing: 2px;
+    margin-left: 40%;
+}
+
+
