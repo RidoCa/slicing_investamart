@@ -23,22 +23,22 @@
   <div class="menu" id="logo">
     <img class="img1" src="{{url('img/utama/pertanyaan/corak1.png')}}" alt="corak">
     <h3>ini goal gue</h3>
-    <form action="/action_page.php" style="margin-top: 3%  ">
+    <form action="/action_page.php" style="margin-top: 3%; ">
       <div>
         <h4 style="margin-bottom: 0.5%;">pengen punya gadget :</h4>
-        <input type="text" id="1" name="1">
+        <input type="text" id="1" name="1" style="text-align: center; font-size: 18px; font-weight: 800">
       </div>
       <div>
         <h4 style="margin-bottom: 0.5%">pengen traveling ke :</h4>
-        <input type="text" id="2" name="2">
+        <input type="text" id="1" name="2" style="text-align: center; font-size: 18px; font-weight: 800">
       </div>
       <div>
         <h4 style="margin-bottom: 0.5%">pengen pensiun di usia :</h4>
-        <input type="text" id="3" name="3">
+        <input type="text" id="1" name="3" style="text-align: center; font-size: 18px; font-weight: 800">
       </div>
       <div>
         <h4 style="margin-bottom: 0.5%">pengen punya penghasilan setiap bulannya sebesar :</h4>
-        <input type="text" id="4" name="4">
+        <input type="text" id="1" name="4" style="text-align: center; font-size: 18px; font-weight: 800">
       </div>
       <h3 style="margin-top: -3%">Kalo lo ?</h3>
       <div>
