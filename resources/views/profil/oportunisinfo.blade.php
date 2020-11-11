@@ -19,7 +19,7 @@
     </div>
     
     <div id="banner">
-        <div class="center">
+        <div class="center" style="margin-top: -7%">
             <br><br>
             <img class="img2" src="{{url('img/oportunis/orang2.png')}}"  alt="logo">
             <h2>saya adalah</h2>

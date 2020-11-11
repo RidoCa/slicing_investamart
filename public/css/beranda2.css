@@ -40,9 +40,8 @@ body{
 }
 
 .center{
-   width: 500px;
-   margin-left: auto;
-   margin-right: auto;
+   width: 400px;
+   margin: auto;
    
 }
 
@@ -51,29 +50,90 @@ body{
 }
 
 #header #logo{
+    position: relative;
     margin-left: auto;
-    border: solid 1px white;
     margin-right: auto;
 }
 
+.img0 {
+    height: 40px; 
+    width: auto;
+    max-width: 220%;
+    margin-left: 25%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.img1 {
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    position: absolute;
+    margin-left: -3%;
+    height: 500px; width: auto
+}
+
+.img2 {
+    height: 800px; 
+    width: auto;
+    margin-left: -20%;
+    margin-top: 5%;
+    max-width: auto;
+    position: relative;
+}
+
+.img3 {
+    height: 100px; 
+    width: auto;
+    max-width: 250%;
+    margin-top: 8%;
+    margin-left: 4%;
+    position: absolute;
+}
 
 /* banner */
-
-#banner img{
-    margin-left: -15%;
-    margin-right: auto;
-}
-
 #banner h1{
-    margin-right: auto;
-    font-size: 25px;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: -45%;
+    font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     position: relative;
     color: white;
+    margin-bottom: 220px;
+    
 }
 
-.btn-primary{
+
+#banner p{
+font-family: "Web-Raleway";
+    text-align: center;
+    list-style-type: none;
+    width: 65%;
+    padding: 30px;
+    margin-left: 13%;
+    font-size: 15px;
+    position: relative;
+    color: white;
+    
+}
+
+#banner h2{
+    font-family: "Web-Raleway";
+    text-align: center;
+    width: 85%;
+    margin-top: -55%;
+    margin-left: 8%;
+    font-size: 28px;
+    position: relative;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.btn-sec{
     background-color: black;
     color: white;
     text-transform: uppercase;
@@ -81,23 +141,9 @@ body{
     text-decoration: none;
     padding: 10px;
     border-radius: 8px;
-    margin-left: 35%;
-    letter-spacing: 2px;
     position: relative;
-    
+    letter-spacing: 4px;
+    margin-left: 23%;
 }
 
-.img1 {
-    height: 50px; 
-    width: auto;
-    max-width: 250%;
-    margin-bottom: -25%;
-}
 
-.img2 {
-    height: 600px; 
-    width: auto;
-    max-width: 250%;
-    margin-left: -40%;
-    position: relative;
-}

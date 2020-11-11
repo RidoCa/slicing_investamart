@@ -13,15 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 //route beranda
-route::get('/', 'App\Http\Controllers\DashboardController@beranda');
-route::get('/beranda', 'App\Http\Controllers\DashboardController@beranda2');
-route::get('/soal', 'App\Http\Controllers\DashboardController@soal');
+route::get('/', 'App\Http\Controllers\DashboardController@beranda2');
+route::get('/beranda', 'App\Http\Controllers\DashboardController@beranda');
 route::get('/form', 'App\Http\Controllers\DashboardController@form');
+
+//routesoal
+route::get('/soal/{id}', 'App\Http\Controllers\DashboardController@soal');
 
 //route optimis
 route::get('/optimis/detail', 'App\Http\Controllers\OptController@optidet');

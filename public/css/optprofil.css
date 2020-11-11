@@ -56,29 +56,30 @@ body{
 }
 
 .img0 {
-    height: 40px; 
+    height: 60px; 
     width: auto;
     max-width: 220%;
-    margin-left: 25%;
-    margin-top: 6%;
+    margin-left: 30%;
+    margin-top: 3%;
     position: absolute;
 }
 
 .img1 {
     padding: 25px;
     background-repeat: no-repeat;
-    background-size: 500px auto;
+    background-size: 100% auto;
     position: absolute;
-    margin-left: -3%;
-    height: 500px; width: auto
+    margin-left: -13%;
+    margin-top: -1%;
+    height: 100%; width: 60%
 }
 
 .img2 {
-    height: 600px; 
+    height: 900px; 
     width: auto;
-    margin-top: 20%;
+    margin-top: -10%;
     max-width: 300%;
-    margin-left: -40%;
+    margin-left: -35%;
     position: relative;
 }
 
@@ -94,8 +95,10 @@ body{
 /* banner */
 #banner h1{
     margin-left: 15%;
-    width: 40%;
-    margin-top: -125%;
+    letter-spacing: 5px;
+    width: 50%;
+    margin-top: -175%;
+    margin-left: -1%;
     font-size: 40px;
     text-align: left;
     text-transform: uppercase;
@@ -139,9 +142,9 @@ font-family: "Web-Raleway";
     text-decoration: none;
     padding: 10px;
     border-radius: 8px;
-    margin-left: 42%;
+    margin-left: 55%;
     position: relative;
-    letter-spacing: 2px;
+    letter-spacing: 8px;
 }
 
 

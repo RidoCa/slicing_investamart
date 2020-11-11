@@ -13,19 +13,18 @@
     <div class="header">
         <div class="center">
             <div id="logo">
-                {{-- <img class="img1" src="{{url('img/utama/profil/investnow.png')}}"  alt="infestnow"> --}}
             </div>
             <div class="clear"></div>
         </div>
     </div>
     
     <div id="banner">
-        <div class="center">
-            <img class="img1" src="{{url('img/utama/profil/investnow.png')}}" style="margin-left: 68%" alt="infestnow">
-            <img class="img2" src="{{url('img/utama/profil/logo2.png')}}" alt="infestnow">
-            <h1 style="margin-top: -170px">udah tau belum?</h1><br><br><br><br><br>
-            <a href="/form" class="btn-primary">Next ></a>
-            
+        <img src="{{url('img/utama/profil/investnow.png')}}" style="height: 75px; width: auto; margin-bottom: -5%; margin-left: 60%; " alt="infestnow">
+        <div class="center" style="margin-top: -7%">
+            <img src="{{url('img/utama/pertanyaan/corak1.png')}}" style="width: 50%;margin-left: -8%; margin-top: 8%; position: absolute;" alt="infestnow">
+            <img class="img2" src="{{url('img/utama/profil/logo1.png')}}"  alt="logo">
+            <h2>Udah tau belum?</h2>
+            <a href="/beranda" class="btn-sec">Cek Disini Buruan ></a><br><br>
         </div>
     </div>
     

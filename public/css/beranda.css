@@ -39,6 +39,10 @@ body{
     clear: both;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 .center{
    width: 400px;
    margin-left: auto;
@@ -59,28 +63,73 @@ body{
 
 /* banner */
 
-#banner img{
-    margin-left: -15%;
+#logo img{
+    /* margin-left: -15%; */
     margin-right: auto;
 }
 
 #banner h1{
-    margin-left: 10%;
     margin-right: auto;
     font-size: 20px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .btn-primary{
     background-color: black;
     color: white;
     text-transform: uppercase;
+    position: relative;
     font-size: 15px;
     text-decoration: none;
     padding: 10px;
     border-radius: 8px;
-    margin-left: 35%;
+    margin-left: 23%;
     letter-spacing: 2px;
     
 }
+
+#header #logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    width: 50%;
+    float: left;
+    padding: 15px;
+  }
+  
+.main {
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 1%;
+    border-radius: 4px;
+    margin-left: 10%;
+    resize: vertical;
+    
+  }
+  
+  ::placeholder {
+    color: #808080;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+  }
+  

@@ -45,27 +45,25 @@ body{
    
 }
 
-#header{
-    padding: 40px 0;
-}
+* {
+    box-sizing: border-box;
+  }
 
-#header #logo{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 #banner img {
-    padding: 25px;
+    /* padding: 25px; */
     background-repeat: no-repeat;
     background-size: auto 100%;
     position: absolute;
-    margin-left: -3%;
+    margin-left: -20%;
 }
 
 
 /* banner */
 #banner h1{
-    margin-left: 18%;
+    margin-left: 13%;
+    margin-top: 20%;
     margin-right: auto;
     width: 60%;
     font-size: 40px;
@@ -80,7 +78,7 @@ body{
 #banner ul{
     text-align: left;
     list-style-type: none;
-    width: 60%;
+    width: 63%;
     padding: 30px;
     margin-left: 13%;
     font-size: 20px;
@@ -93,8 +91,22 @@ body{
     color: white;
     display: block;
     padding: 5px;
+    letter-spacing: 2px;
     margin-bottom: 5px;
     border-bottom: 1px solid white;
+}
+
+#logo h1{
+    margin-left: 25%;
+    margin-right: auto;
+    width: 40%;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: -1%;
+    color: #ED1E79;
+    
 }
 
 .btn-primary{
@@ -109,6 +121,14 @@ body{
     margin-bottom: 10%;
     letter-spacing: 2px;
 }
+.btn-soal{
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    margin-bottom: 10%;
+    letter-spacing: 2px;
+}
 
 .btn-sec{
     background-color: black;
@@ -118,7 +138,7 @@ body{
     text-decoration: none;
     padding: 10px;
     border-radius: 8px;
-    margin-right: 16%;
+    margin-right: 28%;
     margin-bottom: 10%;
     letter-spacing: 2px;
 }
@@ -126,7 +146,7 @@ body{
 .a{
     color: white;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     padding: 10px;
@@ -134,3 +154,29 @@ body{
     display: block;
     
 }
+
+.menu {
+    width: 50%;
+    float: left;
+    padding: 15px;
+  }
+  
+.main {
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 22%;
+    float: right;
+    font-weight: 900;
+    margin-bottom: 5%;
+    
+  }

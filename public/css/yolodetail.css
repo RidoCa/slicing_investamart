@@ -45,6 +45,11 @@ body{
    
 }
 
+* {
+    box-sizing: border-box;
+  }
+
+
 #header{
     padding: 40px 0;
 }
@@ -60,6 +65,7 @@ body{
     width: auto;
     max-width: 220%;
     margin-left: 8%;
+    margin-top: -3%;
     position: absolute;
 }
 
@@ -68,16 +74,17 @@ body{
     background-repeat: no-repeat;
     background-size: auto 100%;
     position: absolute;
-    margin-left: -3%;
-    height: 500px; width: auto
+    margin-left: -5%;
+    margin-top: -3%;
+    height: 600px; width: auto
 }
 
 .img2 {
-    height: 500px; 
+    height: 600px; 
     width: auto;
+    margin-top: 1%;
     max-width: 250%;
-    margin-top: 5%;
-    margin-left: -55%;
+    margin-left: -80%;
     position: relative;
 }
 
@@ -85,13 +92,14 @@ body{
     height: 200px; 
     width: auto;
     max-width: 250%;
-    margin-left: 17%;
+    margin-left: 23%;
+    margin-top: -3%;
     position: relative;
 }
 
 /* banner */
-#banner h1{
-    margin-left: 20%;
+#banner-kiri h1{
+    margin-left: 18%;
     margin-right: auto;
     width: 60%;
     font-size: 40px;
@@ -103,20 +111,19 @@ body{
 }
 
 
-#banner p{
+#banner-kiri p{
 font-family: "Web-Raleway";
     text-align: center;
     list-style-type: none;
-    width: 65%;
-    padding: 30px;
-    margin-left: 13%;
+    width: 100%;
+    padding: 30px;  
     font-size: 15px;
     position: relative;
     color: white;
     
 }
 
-#banner h2{
+#banner-kiri h2{
     font-family: "Web-Raleway";
     text-align: center;
     width: 75%;
@@ -127,16 +134,81 @@ font-family: "Web-Raleway";
     text-transform: uppercase;
 }
 
-#banner h3{
+#banner-kiri h3{
     font-family: "Web-Raleway";
     text-align: center;
     padding: 30px;
-    margin-left: auto;
+    margin-left: -3%;
     font-size: 14px;
     position: relative;
     color: white;
     text-transform: uppercase;
 }
+
+#banner-kanan h1{
+    margin-left: 16%;
+    margin-right: auto;
+    width: 60%;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    color: white;
+    
+}
+
+
+#banner-kanan p{
+font-family: "Web-Raleway";
+    list-style-type: none;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    
+}
+
+#banner-kanan h2{
+    font-family: "Web-Raleway";
+    text-align: center;
+    width: 75%;
+    margin-left: 13%;
+    font-size: 18px;
+    position: relative;
+    color: #FCEE21;
+    text-transform: uppercase;
+}
+
+#banner-kanan h3{
+    font-family: "Web-Raleway";
+    text-align: center;
+    padding: 30px;
+    margin-top: -3%;
+    font-size: 14px;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+}
+
+#banner-bawah p{
+    font-family: "Web-Raleway";
+        list-style-type: none;
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        color: white;
+        
+    }
+    
+    #banner-bawah h2{
+        font-family: "Web-Raleway";
+        text-align: left;
+        width: 100%;
+        font-size: 18px;
+        position: relative;
+        color: #FCEE21;
+        text-transform: uppercase;
+    }
 
 
 .btn-primary{
@@ -147,7 +219,7 @@ font-family: "Web-Raleway";
     text-decoration: none;
     padding: 10px;
     border-radius: 8px;
-    margin-left: 42%;
+    margin-left: 25%;
     letter-spacing: 2px;
 }
 
@@ -176,12 +248,12 @@ font-family: "Web-Raleway";
 
 
 input[type=text], select, textarea {
-    width: 50%;
+    width: 75%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-bottom: 1%;
     border-radius: 4px;
-    margin-left: 23%;
+    margin-left: 30%;
     resize: vertical;
     
   }
@@ -212,4 +284,30 @@ input[type=text], select, textarea {
     background-color: white;
     color: black;
   }
+  
+  .menu {
+    width: 40%;
+    float: left;
+    padding: 15px;
+  }
+  
+  .main {
+    width: 60%;
+    float: left;
+    padding: 5px;
+    margin-left: -3%;
+  }
+  
+  .menu2 {
+    width: 60%;
+    float: left;
+    padding: 15px;
+  }
+  
+  .main2 {
+    width: 40%;
+    float: left;
+    padding: 15px;
+  }
+  
   

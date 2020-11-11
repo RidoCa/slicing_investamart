@@ -10,22 +10,14 @@
 </head>
 <body>
     
-    <div class="header">
+    <div id="banner" style="margin-bottom: -100% ">
         <div class="center">
-            <div id="logo">
-            </div>
-            <div class="clear"></div>
-        </div>
-    </div>
-    
-    <div id="banner">
-        <div class="center">
-            <img class="img1" src="{{url('img/optimis/detail/corak.png')}}"  alt="corak">
+            <img class="img1" src="{{url('img/optimis/detail/corak2.png')}}"  alt="corak">
             <img class="img0" src="{{url('img/utama/profil/investnow.png')}}" alt="infestnow">
             <br><br>
-            <img class="img2" src="{{url('img/optimis/detail2/logo.png')}}"  alt="logo">
+            <img class="img2" src="{{url('img/optimis/orang.png')}}"  alt="logo">
             <h1>yakin <br> esok kaya</h1>
-            <a href="/beranda" class="btn-primary">Share ></a><br><br>
+            <a href="/beranda" class="btn-primary">next</a>
         </div>
     </div>
     

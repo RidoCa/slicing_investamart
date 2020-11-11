@@ -67,9 +67,8 @@ body{
     background-repeat: no-repeat;
     background-size: auto 100%;
     position: absolute;
-    margin-left: -15%;
-    margin-top: 3%;
-    height: 500px; width: auto
+    margin-left: 1%;
+    height: 600px; width: auto
 }
 
 .img2 {
@@ -82,11 +81,15 @@ body{
 }
 
 .img3 {
-    height: 120px; 
+    height: 250px; 
     width: auto;
     max-width: 250%;
-    position: relative;
 }
+
+* {
+    box-sizing: border-box;
+  }
+
 
 /* banner */
 #banner h1{
@@ -109,7 +112,7 @@ font-family: "Web-Raleway";
     width: 45%;
     margin-top: -18%;
     margin-left: 40%;
-    font-size: 13px;
+    font-size: 20px;
     margin-bottom: 25%;
     position: relative;
     color: black;
@@ -140,7 +143,27 @@ font-family: "Web-Raleway";
 #banner h4{
     text-align: center;
     margin-left: auto;
-    font-size: 13px;
+    font-size: 20%;
+    position: relative;
+    color: black;
+    text-transform: uppercase;
+}
+
+#logo h3{
+    text-align: center;
+    padding: 30px;
+    margin-top: -2%;
+    margin-left: auto;
+    font-size: 35px;
+    position: relative;
+    color: #ED1E79;
+    text-transform: uppercase;
+}
+
+#logo h4{
+    text-align: center;
+    margin-left: auto;
+    font-size: 140%;
     position: relative;
     color: black;
     text-transform: uppercase;
@@ -184,11 +207,11 @@ font-family: "Web-Raleway";
 
 
 input[type=text], select, textarea {
-    width: 60%;
-    padding: 12px;
+    width: 78%;
+    padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-left: 18%;
+    border-radius: 20px;
+    margin-left: 13%;
     resize: vertical;
     position: relative;
     
@@ -222,3 +245,14 @@ input[type=text], select, textarea {
     color: black;
   }
   
+  .menu {
+    width: 50%;
+    float: left;
+    padding: 15px;
+  }
+  
+.main {
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
