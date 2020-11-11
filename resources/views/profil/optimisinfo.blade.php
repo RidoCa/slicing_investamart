@@ -25,7 +25,7 @@
             <h2>saya adalah</h2>
             <h1>the optimistic</h1>
             <h2 style="margin-top: -225px; margin-bottom: 20px;">a.k.a moderat</h2>
-            <a href="/yolo/info2" class="btn-sec">Next ></a><br><br>
+            <a href="/optimis/detail" class="btn-sec">Next ></a><br><br>
         </div>
     </div>
     

@@ -25,7 +25,7 @@
             <h2>saya adalah</h2>
             <h1>the yolo</h1>
             <h2 style="margin-top: -225px; margin-bottom: 20px;">a.k.a agresif</h2>
-            <a href="/oportunis/info" class="btn-sec">Next ></a><br><br>
+            <a href="/yolo/detail" class="btn-sec">Next ></a><br><br>
         </div>
     </div>
     

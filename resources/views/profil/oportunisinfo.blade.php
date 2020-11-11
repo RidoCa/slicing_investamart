@@ -25,7 +25,7 @@
             <h2>saya adalah</h2>
             <h1>the oportunis</h1>
             <h2 style="margin-top: -225px; margin-bottom: 20px;">a.k.a konservatif</h2>
-            <a href="/optimis/info" class="btn-sec">Next ></a><br><br>
+            <a href="/oportunis/detail" class="btn-sec">Next ></a><br><br>
         </div>
     </div>
     

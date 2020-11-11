@@ -32,7 +32,7 @@
                 <h4 style="text-align: center; color: white; font-family: Web-Raleway">ikutan quiz.invesnow.id dan
                     dapatkan hadiah investasi rekadana</h4>
                 <br><br>
-                <a href="/oportunis/info2" class="btn-sec">Next ></a><br><br>
+                <a href="/oportunis/info" class="btn-sec">Next ></a><br><br>
             </div>
         </div>
 

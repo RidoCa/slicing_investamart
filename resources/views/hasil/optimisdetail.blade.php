@@ -33,9 +33,9 @@
     </div>
 
     <div class="main2" style="margin-top: 5%; text-align: center;">
-      <a style="font-size: 20px" href="/oportunis/detail" class="btn-primary">Share Facebook</a><br><br><br>
-      <a style="font-size: 20px" href="/oportunis/detail" class="btn-primary">Share Twitter</a><br><br><br>
-      <a style="font-size: 20px" href="/oportunis/detail" class="btn-primary">Share Instagram</a><br><br><br>
+      <a style="font-size: 20px" href="/optimis/info2" class="btn-primary">Share Facebook</a><br><br><br>
+      <a style="font-size: 20px" href="/optimis/info2" class="btn-primary">Share Twitter</a><br><br><br>
+      <a style="font-size: 20px" href="/optimis/info2" class="btn-primary">Share Instagram</a><br><br><br>
     </div>
 
     <p style="margin-top: 30%; margin-bottom: 3%; margin-left: 16%; width: 80%">Lorem ipsum dolor sit amet consectetur
@@ -62,7 +62,7 @@
             <input type="text" id="mobile" name="mobile" placeholder="Mobile">
           </div>
           <div>
-          <a style="margin-left: 87%; font-size: 15px;" href="/oportunis/detail" class="btn-primary">Submit</a>
+          <a style="margin-left: 87%; font-size: 15px;" href="/optimis/info2" class="btn-primary">Submit</a>
           </div>
         </form>
       </div>
